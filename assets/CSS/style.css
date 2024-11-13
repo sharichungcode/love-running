@@ -139,6 +139,16 @@ main{
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background-image: url(../images/reasons-image.webp) no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
