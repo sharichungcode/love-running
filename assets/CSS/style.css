@@ -208,6 +208,7 @@ main{
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width:576px) {
+    /* Gallery */
     #photo {
         column-count: 2;
         column-gap: 0;
@@ -267,11 +268,22 @@ main{
         text-align: end;
         align-self: flex-end;
     }
+    
+    /* Gallery */
+    #photo {
+        column-count: 3;
+    }
+}
 
 /* Media query: laptop or larger (992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Gallery */
+    #photo {
+        column-count: 4;
     }
 }
 
